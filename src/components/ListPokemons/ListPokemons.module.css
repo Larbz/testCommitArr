@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  gap: 20px;
+}
+.list-pokemons {
+  top: 120px;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,250px);
+  gap: 20px;
+  place-content: center;
+}
+.pagination {
+  width: 80%;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.count {
+  font-size: 20px;
+}
+.button {
+  padding: 20px 20px;
+  background-color: #e3350d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.spin{
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+}
